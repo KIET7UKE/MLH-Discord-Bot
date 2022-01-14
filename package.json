@@ -1,0 +1,20 @@
+{
+  "name": "htb-bot",
+  "version": "1.0.0",
+  "description": "the test version of our bot for hack the bot hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "monoxkhoulu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
